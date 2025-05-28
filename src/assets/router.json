@@ -1,0 +1,111 @@
+{
+    "success": true,
+    "message": "查询成功",
+    "code": 200,
+    "result": {
+        "allAuth": [],
+        "auth": [],
+        "menu": [
+            {
+                "redirect": null,
+                "path": "/dashboard/analysis",
+                "component": "dashboard/analysis",
+                "route": "1",
+                "meta": {
+                    "keepAlive": false,
+                    "internalOrExternal": false,
+                    "icon": "HomeOutlined",
+                    "componentName": "analysis",
+                    "title": "首页"
+                },
+                "name": "dashboard-analysis",
+                "id": "9502685863ab87f0ad1134142788a385"
+            },
+            {
+                "redirect": null,
+                "path": "/personnelInformation/management",
+                "component": "personnelInformation",
+                "route": "1",
+                "meta": {
+                    "keepAlive": false,
+                    "internalOrExternal": false,
+                    "icon": "UserAddOutlined",
+                    "componentName": "personnelInformation",
+                    "title": "测试菜单"
+                },
+                "name": "personnelInformation/management",
+                "id": "9502685863ab82432546436112385"
+            },
+            {
+                "redirect": null,
+                "path": "/isystem",
+                "component": "layouts/RouteView",
+                "route": "1",
+                "children": [
+                    {
+                        "path": "/isystem/user",
+                        "component": "system/user",
+                        "route": "1",
+                        "meta": {
+                            "keepAlive": false,
+                            "internalOrExternal": false,
+                            "componentName": "user",
+                            "title": "用户管理"
+                        },
+                        "name": "isystem-user",
+                        "id": "3f915b2769fc80648e92d04e84ca059d"
+                    },
+                    {
+                        "path": "/isystem/roleUserList",
+                        "component": "system/roleUserList",
+                        "route": "1",
+                        "meta": {
+                            "keepAlive": false,
+                            "internalOrExternal": false,
+                            "componentName": "roleUserList",
+                            "title": "角色管理"
+                        },
+                        "name": "isystem-roleUserList",
+                        "id": "190c2b43bec6a5f7a4194a85db67d96a"
+                    },
+                    {
+                        "path": "/isystem/permission",
+                        "component": "system/permission",
+                        "route": "1",
+                        "meta": {
+                            "keepAlive": false,
+                            "internalOrExternal": false,
+                            "componentName": "permission",
+                            "title": "菜单管理"
+                        },
+                        "name": "isystem-permission",
+                        "id": "54dd5457a3190740005c1bfec55b1c34"
+                    },
+                    {
+                        "path": "/isystem/deptNew",
+                        "component": "system/deptNew",
+                        "route": "1",
+                        "meta": {
+                            "keepAlive": false,
+                            "internalOrExternal": false,
+                            "componentName": "deptNew",
+                            "title": "机构管理"
+                        },
+                        "name": "isystem-deptNew",
+                        "id": "45c966826eeff4c99b8f8ebfe74511fd"
+                    }
+                ],
+                "meta": {
+                    "keepAlive": false,
+                    "internalOrExternal": false,
+                    "icon": "BarsOutlined",
+                    "componentName": "RouteView",
+                    "title": "系统管理"
+                },
+                "name": "isystem",
+                "id": "d7d6e2e4e2934f2c9385a623fd98c6f3"
+            }
+        ]
+    },
+    "timestamp": 1737618615703
+}
